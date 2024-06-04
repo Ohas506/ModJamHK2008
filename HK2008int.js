@@ -259,6 +259,29 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": false
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50007,
+        "fields": {
+            "first_name": "民主黨",
+            "last_name": "(DP)",
+            "election": 20,
+            "party": "Democratic Party",
+            "state": "Nationwide",
+            "priority": 1,
+            "description": "<p>Pan-democracy -<b>Not Playable</b></p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Democratic_Party_%28Hong_Kong%29_logo.svg/500px-Democratic_Party_%28Hong_Kong%29_logo.svg.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
     }
 ]
 
@@ -284,7 +307,8 @@ campaignTrail_temp.opponents_default_json = [
             50003,
             50004,
             50005,
-            50006
+            50006,
+            50007
         ]
     }
 ]
@@ -300,7 +324,8 @@ campaignTrail_temp.opponents_weighted_json = [
             50003,
             50004,
             50005,
-            50006
+            50006,
+            50007
         ]
     }
 ]
