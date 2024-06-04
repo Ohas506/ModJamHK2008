@@ -358,7 +358,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#669c35";
 
-document.getElementById("header").src = "https://i.imgur.com/iz8sPEl.png";
+document.getElementById("header").src = "https://i.imgur.com/SohUkHG.png";
 
 document.body.background = "https://www.news.cn/english/2021-09/20/1310198480_16321021408371n.jpg";
 
