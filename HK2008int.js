@@ -55,7 +55,7 @@ campaignTrail_temp.global_parameter_json = [
 campaignTrail_temp.candidate_json = [
     {
         "model": "campaign_trail.candidate",
-        "pk": 1001,
+        "pk": 200,
         "fields": {
             "first_name": "",
             "last_name": " 公民黨 (CP)",
@@ -290,7 +290,7 @@ campaignTrail_temp.running_mate_json = [
         "model": "campaign_trail.running_mate",
         "pk": 109261,
         "fields": {
-            "candidate": 1001,
+            "candidate": 200,
             "running_mate": 1002
         }
     }
